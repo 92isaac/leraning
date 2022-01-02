@@ -62,7 +62,7 @@ for (let i = 0; i < navLi.length; i++) {
 
   // TEXT EFFECT
   // TEXT ARRAY
-  const dataText = ["Web Developer.", "Blogger", "Content Developer", "Developer Advocate"];
+  const dataText = ["Web/Software Developer", "Content Developer", "Health and Safety Engineer", "Planning Advisor"];
   document.addEventListener("DOMContentLoaded", typingEffect);
 
   function typingEffect() {
@@ -95,4 +95,8 @@ for (let i = 0; i < navLi.length; i++) {
     
   }
   startTextAnimation(0);
+}
+
+function sendEmail(){
+  window.location= "mailto:sangodareisaac92@gmail.com"
 }

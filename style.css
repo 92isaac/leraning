@@ -119,7 +119,7 @@ nav li a:hover {
 }
 
 .profile-content h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 500;
     color: #4f524f;
 }
@@ -320,6 +320,7 @@ span.effect {
 .content-about .content-details p {
     color: #fff;
     font-weight: 300;
+    font-size: small;
 }
 
 .content-about .content-details p span.text {
@@ -364,13 +365,21 @@ span.effect {
     border-radius: 3px;
 }
 
+.specific-details{
+    padding-bottom: 10px;
+}
+
 .resume .year-title,
 .portfolio-item p.portfolio-title,
 .blog-post .post-title {
     font-size: 1.6rem;
-    font-weight: 600;
+    font-weight: 700;
     color: #363836;
 
+}
+
+.specific-details h3{
+    font-weight: 700;
 }
 
 .resume .year-desc,

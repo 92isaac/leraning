@@ -34,6 +34,12 @@
     .all {
         margin-left: 8rem;
     }
+
+    .content-about .content-details p {
+        color: #fff;
+        font-weight: 150;
+        font-size: smaller;
+    }
 }
 
 /* MOBILE */
@@ -64,5 +70,11 @@
     .all {
         margin: 0 auto;
         padding-top: 7.2rem;
+    }
+
+    .content-about .content-details p {
+        color: #fff;
+        font-weight: 150;
+        font-size: smaller;
     }
 }
